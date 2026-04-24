@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Terminal } from "lucide-react";
+import { LogIn } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -10,13 +10,12 @@ const Navbar = () => {
           <span>devGroup</span>
         </a>
         <nav className="hidden md:flex items-center gap-6 font-mono text-sm text-muted-foreground">
-          <a href="#aulas" className="hover:text-primary transition-colors">./aulas</a>
-          <a href="#interacao" className="hover:text-primary transition-colors">./interacao</a>
-          <a href="#projeto" className="hover:text-primary transition-colors">./projeto</a>
-          <a href="#forum" className="hover:text-primary transition-colors">./forum</a>
+          <a href="#sobre" className="hover:text-primary transition-colors">./sobre</a>
+          <a href="#ideia" className="hover:text-primary transition-colors">./ideia</a>
+          <a href="#proposito" className="hover:text-primary transition-colors">./proposito</a>
         </nav>
         <Button asChild size="sm" className="font-semibold">
-          <a href="#enviar"><Terminal className="size-4" /> enviar desafio</a>
+          <a href="/login"><LogIn className="size-4" /> login</a>
         </Button>
       </div>
     </header>
