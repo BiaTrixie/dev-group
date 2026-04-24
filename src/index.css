@@ -19,7 +19,6 @@
     /* Emerald primary */
     --primary: 158 84% 52%;
     --primary-foreground: 222 47% 6%;
-    --primary-glow: 158 90% 65%;
 
     --secondary: 217 33% 14%;
     --secondary-foreground: 210 40% 96%;
@@ -31,9 +30,6 @@
     --accent: 187 92% 55%;
     --accent-foreground: 222 47% 6%;
 
-    /* Fuchsia for highlights */
-    --highlight: 292 84% 65%;
-
     --destructive: 0 72% 55%;
     --destructive-foreground: 210 40% 98%;
 
@@ -43,27 +39,8 @@
 
     --radius: 0.75rem;
 
-    /* Gradients */
     --gradient-hero: radial-gradient(ellipse 80% 60% at 50% 0%, hsl(245 60% 18% / 0.9) 0%, hsl(222 47% 4%) 60%);
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
     --gradient-text: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-card: linear-gradient(180deg, hsl(222 40% 9% / 0.8), hsl(222 40% 6% / 0.6));
-
-    /* Shadows / glows */
-    --glow-primary: 0 0 40px hsl(var(--primary) / 0.35);
-    --glow-accent: 0 0 40px hsl(var(--accent) / 0.3);
-    --shadow-card: 0 10px 40px -10px hsl(222 47% 0% / 0.6);
-
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-
-    --sidebar-background: 222 47% 6%;
-    --sidebar-foreground: 210 40% 96%;
-    --sidebar-primary: 158 84% 52%;
-    --sidebar-primary-foreground: 222 47% 6%;
-    --sidebar-accent: 217 33% 14%;
-    --sidebar-accent-foreground: 210 40% 96%;
-    --sidebar-border: 217 33% 16%;
-    --sidebar-ring: 158 84% 52%;
   }
 }
 
@@ -90,19 +67,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-  }
-
-  .glow-primary {
-    box-shadow: var(--glow-primary);
-  }
-
-  .glow-accent {
-    box-shadow: var(--glow-accent);
-  }
-
-  .card-surface {
-    background: var(--gradient-card);
-    backdrop-filter: blur(8px);
   }
 
   .grid-bg {
